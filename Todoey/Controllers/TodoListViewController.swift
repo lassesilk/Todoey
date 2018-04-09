@@ -120,7 +120,7 @@ class TodoListViewController: UITableViewController {
         } else {
             request.predicate = categoryPredicate
         }
-      
+      //Kombinert predicate
         
         do {
             itemArray = try context.fetch(request)
